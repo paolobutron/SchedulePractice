@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+    <ui:composition template="/templates/mainLayout.xhtml">
+        <ui:define name="content">
+            <p:panel header="" style='min-width: 600px;'>
+
+                <div style="background: #ffffff  no-repeat;
+                     background-size: 100%;width: 100%; height: 350px;" class="welcome-background-IE">                    
+                    <h:outputLabel value="Bienvenido al sistema" style='font-size: 16pt;font-family:Arial, "Arial CE";'/>
+
+                    <div style="text-align: justify; font-weight: bold; padding: 30px 50px; line-height: 30px;">
+                        Este sistema permite:
+                        <ul>
+                            <li>Calcular los montos correspondientes a DAF y DUF para Terminales, Radiobases, Bandas de Frecuencias y Radioenlaces de la red de Nuevatel, sean mensuales, anuales o a demanda; para fines de declaraciones y pagos regulatorios a la ATT.</li>
+                            <li>Contar con una Base de Datos de Radiobases (Sitios), y su permanente actualización a través de altas, bajas y modificaciones.</li>
+                            <li>Contar con una Base de Datos de Radioenlaces, y su permanente actualización a través de altas, bajas y modificaciones.</li>
+                        </ul>
+                        La administración de este sistema está a cargo de las Vicepresidencias de Regulación e IT (contacto Regulación: <a style="color: #0076D0;" href="mailto:moira.diezdemedina@nuevatel.com">moira.diezdemedina@nuevatel.com</a> , contacto IT: <a style="color: #0076D0;" href="mailto:hugo.ona@nuevatel.com">hugo.ona@nuevatel.com</a>)
+                        <div>Sistema desarrollado In-house.</div>  
+
+                    </div>
+                </div>
+            </p:panel>
+        </ui:define>
+    </ui:composition>
+</html>
+

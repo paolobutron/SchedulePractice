@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <property name="encoding" value="utf-8" dbms="mysql"/>
+    <property name="switch-to-duf_dbversion.sql" value="use duf_dbversion" dbms="mysql"/>
+
+    <changeSet author="pbutron" id="schedule_1-1">
+        <comment>Initial schedule schema.</comment>
+        <sqlFile dbms="mysql" encoding="${encoding}" path="./schedule_1-1.sql" relativeToChangelogFile="true"/>
+        <sql dbms="mysql" splitStatements="true" stripComments="true">${switch-to-schedule_dbversion.sql}</sql>
+        <rollback>DROP DATABASE schedule</rollback>
+    </changeSet>
+	
+</databaseChangeLog>

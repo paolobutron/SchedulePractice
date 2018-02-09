@@ -1,0 +1,162 @@
+html, body {
+height: 100%;
+}
+
+#container {
+min-height: 100%;
+margin-bottom: -37px;
+position: relative;
+}
+
+#footer {
+height: 30px;
+position: relative;
+}
+
+.clearfooter {
+height: 30px;
+clear: both;
+}
+
+#loginForm{
+    background-color: #FFFFFF;
+    height: 100%;    
+}
+
+td.loginTitle{
+    background:none repeat scroll 0 0 #F78320;
+    color:#FFFFFF;
+    font-weight:bolder;
+    height:25px;
+    text-align:center;    
+}
+
+.error td{
+    font-style: italic;
+    color: red;
+    font-size: 10px;
+}
+
+.titulo1 {
+    color:#0083D7;
+    font-size:12px;
+    text-align:center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.label{
+    color:#002E7C;
+    text-align: right;
+}
+
+.field{
+    text-align: left !important;
+}
+
+.wholefield{
+    width: 100%;
+}
+
+input {
+    border:1px solid #D8DADD;
+    color:#666666;
+    font-family:Arial;
+    font-size:11px;    
+}
+
+.mainTable{
+    width: 100%;
+    height: 100%;
+}
+
+body, td, th {
+    color:#002E7C;
+    font-family:Arial;
+    font-size:11px;
+}
+
+.line{
+    color: #000000;
+    width: 100%;
+}
+
+.tableHeader {
+    text-align: center;
+    font-style: italic;
+    color: Snow;
+    background: #F6821F;
+    width: 40%;
+}
+.oddRow {
+    height: 25px;
+    text-align: center;
+    background: limegreen;
+    text-align: left;    
+}
+.evenRow {
+    text-align: center;
+    background: greenyellow;
+    text-align: left;    
+}
+
+
+.columnClass{
+    width: 200px;
+}
+
+.chooseOneList{
+    width: 200px;
+}
+
+.formTable{
+    text-align: center;
+}
+
+.upperCase{
+    text-transform: uppercase;
+}
+
+.tree-text td {
+    color:#000000;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 1.2em;
+}
+
+.green_color{
+    text-align: right;
+    background-color:  lawngreen;
+}
+
+.yellow_color{
+    text-align: right;
+    background-color: yellow;
+}
+
+.red_color{
+    text-align: right;
+    background-color: tomato;
+}
+
+.white_color{
+    text-align: right;
+    background-color: white;
+}
+
+.white_color_str{        
+    background-color: white;
+}
+
+.table_elements_layout{
+    width: 215px;
+    height: 300px;
+}
+
+.border_size{
+   width: 99%;
+   height: 580px;
+}
+
+.row_class{
+   vertical-align: top;
+}
