@@ -5,6 +5,7 @@ To avoid the unorganized code and to simplify the code analisys for new develope
 - The DAO (Data base conexion) layer: This layer contains all the methods related to querys and connections to the database.
 
 Deploy
+Execute the "schedule.sql" script located in the "Database" folder
 The project was built in maven. To compile the project is neccesary yo have maven and point to the maven repository. Also, to deploy the project it will be neccesary to have a Server Application. In this case I used Glassfish.
 
 Unit testing
